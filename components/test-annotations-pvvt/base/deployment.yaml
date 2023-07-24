@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-annotations-pvvt
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/tnevrlka-test/build-e2e-demx-tenant/test-annotations-app-bajf/test-annotations-pvvt@sha256:73e09d595ff2f02d0df688dfa4e113ae95fe3ed687b5d9f57f0b9d9dc0bf7bce
         name: my-nginx
         ports:
         - containerPort: 8080
